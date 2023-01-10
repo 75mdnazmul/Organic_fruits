@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* Common css is End */
+/* header and navber part is start */
+.header {
+    background-color: #477018;
+}
+
+.header h5 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-item a {
+    color: rgb(118, 118, 118);
+    padding-top: 20px;
+}
+
+.nav-item a:hover {
+    color: #477018;
+}
+
+ul li::after a {
+    content: '';
+    width: 0;
+    height: 5px;
+    background-color: #477018;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+
+}
+
+ul li:hover::after a {
+    width: 100%;
+}
+
+.icons i {
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.icons i:hover {
+    color: #477018;
+}
+
+/* header and navber part is End */
+/* banner part is start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban_img_1 img {
+    width: 100%;
+    background-size: cover;
+}
+
+.ban_img_2 div {
+    width: 20%;
+    margin-bottom: 24px;
+}
+
+.ban_text {
+    width: 38%;
+    margin-left: 2px;
+
+}
+
+.icon_n_text {
+    display: flex;
+}
+
+.icon_n_text .icon {
+    padding-right: 30px;
+}
+
+.icon_n_text .icon i {
+    color: #FFC24B;
+}
+
+.icon_n_text .icon_text b {
+    padding-left: 10px;
+}
+
+.ban_text .money {
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    color: #F47606;
+}
+
+.ban_text .ban_lorem {
+    padding-right: 10px;
+}
+
+.ban_btn{
+    margin-top: 60px;
+}
+.kg {
+    padding: 14px 32px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color:#000;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.add {
+    padding: 14px 31px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #5e5e5e;
+    transition: .3s;
+
+}
+.add i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+.compare {
+    padding: 14px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #5e5e5e;
+    transition: .3s;
+    
+}
+.compare i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+.buy {
+    padding: 14px 166px;
+    border-radius: 10px;
+    margin: 17px 0;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    transition: .3s;
+    background-color: #F47606;
+
+}
+
+.wishlist {
+    padding: 14px 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #5e5e5e;
+    transition: .3s;
+
+}
+.wishlist i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.kg span {
+    padding: 0 33px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.compare:hover{
+    color:white;
+    background-color:#F47606;
+    border: 2px solid transparent;
+}
+.kg:hover{
+    color:white;
+    background-color:#F47606;
+    border: 2px solid transparent;
+
+}
+.add:hover{
+    color:white;
+    background-color:#F47606;
+    border: 2px solid transparent;
+
+}
+.wishlist:hover{
+    color:white;
+    background-color:#F47606;
+    border: 2px solid transparent;
+
+}
+.buy:hover{
+    background-color: #477018;
+    color: #fff;
+}
+.contact p{
+    padding: 10px 0;
+}
+.Category{
+    margin-top: 30px;
+}
+.contact .share{
+    display: flex;
+    border-bottom: 2px solid #a2a2a2;
+    padding-bottom: 30px;
+}
+
+.contact .share .fb{
+    padding: 15px 20px;
+    color: #606060;
+    margin: 0px 8px 0 25px;
+    border: 2px solid #808080;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    transition: .3s;
+}
+.contact .share .fb:hover{
+    background-color:#395185;
+    border: 2px solid transparent;
+    color:#fff;
+}
+.contact .share .tw{
+    padding: 15px 20px;
+    color: #606060;
+    margin: 0px 8px ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid gray;
+    transition: .3s;
+}
+.contact .share .tw:hover{
+    background-color:#55ACEE;
+    border: 2px solid transparent;
+    color:#fff;
+}
+.contact .share .pin{
+    padding: 15px 20px;
+    color: #606060;
+    margin: 0px 8px ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid gray;
+    transition: .3s;
+}
+.contact .share .pin:hover{
+    background-color:#FF0000;
+    border: 2px solid transparent;
+    color:#fff;
+}
+.contact .share .bask{
+    padding: 15px 20px;
+    color: #606060;
+    margin: 0px 8px ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid gray;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.contact .share .bask:hover{
+    background-color:#F23F7E;
+    border: 2px solid transparent;
+    color:#fff;
+}
+.contact ul li{
+    list-style-type: circle;
+}
+.contact ul {
+    border-bottom: 2px solid #a2a2a2;
+    padding-bottom: 30px;
+}
+/* banner part is End */
